@@ -64,15 +64,16 @@ h1:hover {
     transition: opacity 1s;
     opacity: 50%;
     color: blanchedalmond;
+    /* border-bottom-color: white; */
 }
 
 .nav-link {
     padding: 0.25rem 0;
     font-weight: 700;
+    font-size: x-large;
     color: rgba(255, 255, 255, 0.5);
     margin-left: 1rem;
     border-bottom: 0.25rem solid transparent;
-
 }
 
 
@@ -222,7 +223,6 @@ footer {
     max-width: 300px;
     max-height: 325px;
     border: 1px #bc6c25;
-    /* border-radius: 2%; */
     padding: 4%;
     border-radius: 8%;
 
