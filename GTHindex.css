@@ -1,30 +1,38 @@
 body {
-    background-color: #606c38;
+    background-image: url("Pictures/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
 
 h1 {
     text-align: center;
-    color: #283618;
+    color: #151613;
     font-size: 100px;
     /* /* font-family: 'Bebas Neue', cursive; */
     font-family: 'Splash', cursive;
     /* background-color: #4e582a; */
+    /* opacity: 50%; */
+}
+
+h1:hover {
+    transition: background-color 3s, border-radius 2s, opacity 1s, box-shadow 1s;
     opacity: 50%;
+    /* background-color: #775713; */
+    color: blanchedalmond;
 }
 
 .horse {
     position: absolute;
-    left: 35em;
-    bottom: 1em;
-    top: 1em;
+    left: 60em;
+    top: 20em;
 }
 
-.horse:hover {
+/* .horse:hover {
     background-image: url("Pictures/download\ \(1\).png");
-    /* border-radius: 30%; */
-}
+     border-radius: 30%; 
+} */
 
 .blurb {
     position: relative;
@@ -37,7 +45,7 @@ h1 {
 
 
 
-.nav-link {
+.nav-link2 {
     text-decoration: none;
     color: black;
     margin-left: 1em;
@@ -45,12 +53,33 @@ h1 {
     font-size: x-large;
 }
 
-.nav-link:hover {
+.nav-link2:hover {
     transition: background-color 3s, border-radius 2s, opacity 1s, box-shadow 1s;
     opacity: 50%;
     background-color: #775713;
     color: blanchedalmond;
 }
+
+.nav-link:hover {
+    transition: opacity 1s;
+    opacity: 50%;
+    color: blanchedalmond;
+}
+
+.nav-link {
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+
+}
+
+
+/* .nav-link:hover {
+    color: white;
+    border-bottom-color: white;
+} */
 
 footer {
     position: fixed;
@@ -66,7 +95,7 @@ footer {
     /* box-shadow: 0 0 20px 5px #dda15e; */
 }
 
-.card {
+*/ .card {
     background-color: #dda15e;
     color: #bc6c25;
     box-shadow: 0 0 20px 5px #dda15e;
@@ -100,5 +129,109 @@ footer {
     border-radius: 8%;
     /* background-color: #e9c46a; */
     box-shadow: 0 0 20px 5px #dda15e;
+}
 
+.item2:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: 5s;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.samplePhoto3 {
+    max-width: 300px;
+    max-height: 325px;
+    border: 1px #bc6c25;
+    /* border-radius: 2%; */
+    padding: 4%;
+    border-radius: 8%;
+    /* background-color: #e9c46a; */
+
+}
+
+.samplePhoto3:hover {
+    box-shadow: 0 0 20px 5px #dda15e;
+}
+
+
+
+
+
+
+
+
+
+@keyframes wipe-enter {
+    0% {
+        transform: scale(0, .025);
+    }
+
+    50% {
+        transform: scale(1, .025);
+    }
+}
+
+.item4 {
+    max-width: 300px;
+    max-height: 325px;
+    border: 1px #bc6c25;
+    /* border-radius: 2%; */
+    padding: 4%;
+    border-radius: 8%;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .item4 {
+        animation-name: wipe-enter;
+        animation-duration: 1s;
+        animation-iteration-count: 1s;
+    }
 }
