@@ -1,22 +1,16 @@
 body {
-    background-color: #a08f22;
+    background-color: #606c38;
 }
 
-svg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-}
+
 
 h1 {
-    position: relative;
+    text-align: center;
     /* bottom: 20px;
     right: 20px; */
-    color: #bc6c25;
+    color: #283618;
     font-size: 50px;
-    font-family: 'Climate Crisis', cursive;
+    font-family: 'Bebas Neue', cursive;
 
 }
 
@@ -27,103 +21,71 @@ h1 {
     /* height: 100vh; */
     color: #000000;
     font-size: 20px;
-    font-family: 'Climate Crisis', cursive;
+    font-family: 'Smokum', cursive;
 }
 
 
-.links {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    font-size: 18px;
-    font-family: 'Climate Crisis', cursive;
 
-}
-
-a {
+.nav-link {
     text-decoration: none;
     color: black;
     margin-left: 1em;
+    font-family: 'Smokum', cursive;
 }
 
-a:hover {
+.nav-link:hover {
     text-decoration: underline;
 }
 
-a img.icon {
-    display: inline-block;
-    height: 1em;
-    margin: 0 0 -0.1em 0.3em;
-}
 
-/* #aboutPics2 {
-    position: relative;
-    size-adjust: 10%;
-    left: 30%;
-    width: 50%;
-    height: 100vh;
-} */
-
-.card {
-    position: relative;
-
-    left: 15%;
-    /* width: 50%; */
-    /* height: 100vh; */
-    color: #000000;
-    font-size: 20px;
-    font-family: 'Noto Serif Lao', serif;
-    /* border-radius: 5%;
-    border-style: inset */
-}
-
-.card1 {
-    position: absolute;
-    border: 1px #000000;
-    padding: 2%;
-    border-radius: 8%;
-    box-shadow: 0 0 20px 5px #bc6c25;
-    top: 50%;
-    left: 50%;
-    width: 50%;
-}
-
-.card2 {
-    position: absolute;
-    border: 1px #000000;
-    padding: 2%;
-    border-radius: 8%;
-    box-shadow: 0 0 20px 5px #bc6c25;
-    top: 30%;
-    left: 10%;
-    width: 50%;
-}
-
-.card3 {
-    position: absolute;
-    border: 1px #000000;
-    padding: 2%;
-    border-radius: 8%;
-    box-shadow: 0 0 20px 5px #bc6c25;
-    top: 110%;
-    left: 10%;
-    width: 50%;
-}
-
-.card4 {
-    position: absolute;
-    border: 1px #000000;
-    padding: 2%;
-    border-radius: 8%;
-    box-shadow: 0 0 20px 5px #bc6c25;
-    top: 130%;
-    left: 50%;
-    width: 50%;
-}
 
 footer {
     position: fixed;
     bottom: 2%;
-    font-family: 'Climate Crisis', cursive;
+    font-family: 'Smokum', cursive;
     color: #000000;
+}
+
+.samplePacks {
+    /* margin-top: 6rem; */
+    margin-bottom: 3%;
+    /* padding: 5%; */
+    /* box-shadow: 0 0 20px 5px #dda15e; */
+}
+
+.card {
+    background-color: #dda15e;
+    color: #bc6c25;
+    box-shadow: 0 0 20px 5px #dda15e;
+}
+
+.card-body {
+    background-color: #dda15e;
+    padding: 5%;
+    /* border-radius: 8%; */
+    box-shadow: 0 0 20px 5px #dda15e;
+}
+
+.card-text {
+    background-color: #dda15e;
+    color: #000000;
+}
+
+.container {
+    /* background-color: #264653; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.samplePhoto {
+    max-width: 300px;
+    max-height: 325px;
+    border: 1px #bc6c25;
+    /* border-radius: 2%; */
+    padding: 4%;
+    border-radius: 8%;
+    /* background-color: #e9c46a; */
+    box-shadow: 0 0 20px 5px #dda15e;
+
 }
