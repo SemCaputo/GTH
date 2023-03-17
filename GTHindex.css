@@ -43,8 +43,6 @@ h1:hover {
     font-family: 'Ma Shan Zheng', cursive;
 }
 
-
-
 .nav-link2 {
     text-decoration: none;
     color: black;
@@ -96,30 +94,45 @@ footer {
     /* box-shadow: 0 0 20px 5px #dda15e; */
 }
 
-*/ .card {
+.card {
     background-color: #dda15e;
-    color: #bc6c25;
+    color: #000000;
     box-shadow: 0 0 20px 5px #dda15e;
+    /* max-width: 300px;
+    max-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-bottom: 10%; */
+
 }
 
 .card-body {
-    background-color: #dda15e;
+    background-color: #946f44;
     padding: 5%;
     /* border-radius: 8%; */
     box-shadow: 0 0 20px 5px #dda15e;
+
 }
 
 .card-text {
-    background-color: #dda15e;
+    background-color: #946f44;
     color: #000000;
 }
 
-.container {
+/* .container {
     /* background-color: #264653; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+/* display: flex;
+flex-wrap: wrap;
+justify-content: space-between; */
+
+/* } */
+
+
+/* .card-img-top {
+    max-width: 600px;
+    max-height: 300px;
+} */
 
 .samplePhoto {
     max-width: 300px;
@@ -131,6 +144,7 @@ footer {
     /* background-color: #e9c46a; */
     box-shadow: 0 0 20px 5px #dda15e;
 }
+
 
 .item2:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
@@ -198,6 +212,7 @@ footer {
 }
 
 .samplePhoto3:hover {
+    transition: box-shadow 0.5s;
     box-shadow: 0 0 20px 5px #dda15e;
 }
 
@@ -223,8 +238,9 @@ footer {
     max-width: 300px;
     max-height: 325px;
     border: 1px #bc6c25;
-    padding: 4%;
+    /* padding: 4%; */
     border-radius: 8%;
+
 
 }
 
