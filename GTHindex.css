@@ -52,14 +52,20 @@ h1:hover {
     border-bottom-color: white;
 }
 
+
+section {
+    padding: 5%;
+}
+
 .blurb {
     /* text-align: end; */
     padding: 5%;
     margin: 5%;
+    font-weight: 50;
+    font-size: 1.125rem;
+    line-height: 2;
     color: whitesmoke;
-    font-size: 30px;
-    font-family: 'Clicker Script', cursive;
-    font-weight: 300;
+    font-family: 'Ma Shan Zheng', cursive;
 }
 
 
@@ -71,13 +77,14 @@ footer {
     color: #000000;
 }
 
-/* .samplePacks {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
+.samplePacks {
+    padding: 5%;
+}
 
-} */
+.MusicPhoto {
+    max-width: 300px;
+    max-height: 325px;
+}
 
 /* .blurb h2 {
     color: #f1f1f1;
@@ -85,24 +92,26 @@ footer {
     font-size: 2.5rem;
 } */
 
-.blurb p {
+/* .blurb p {
     color: #ffffff;
     font-weight: 100;
     font-size: 1.125rem;
     line-height: 2;
-    font-family: 'Clicker Script', cursive;
-}
+    font-family: 'Ma Shan Zheng', cursive;
+} */
 
-.content {
+/* .content {
     margin-top: 100px;
     margin-bottom: 100px;
-}
+} */
 
 
 .card {
     background-color: #dda15e;
     color: #000000;
     box-shadow: 0 0 20px 5px #dda15e;
+    max-width: 300px;
+    max-height: 200px;
     /* max-width: 300px;
     max-height: 300px;
  display: flex;
@@ -117,7 +126,6 @@ footer {
     padding: 5%;
     /* border-radius: 8%; */
     box-shadow: 0 0 20px 5px #dda15e;
-
 }
 
 .card-text {
