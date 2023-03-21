@@ -29,21 +29,6 @@ h1:hover {
     top: 20em;
 }
 
-/* .horse:hover {
-    background-image: url("Pictures/download\ \(1\).png");
-     border-radius: 30%; 
-} */
-
-.blurb {
-    position: relative;
-    left: 50%;
-    width: 50%;
-    color: #000000;
-    font-size: 20px;
-    font-family: 'Clicker Script', cursive;
-    font-weight: 300;
-}
-
 .main-nav {
     display: -webkit-flex;
     display: flex;
@@ -67,6 +52,17 @@ h1:hover {
     border-bottom-color: white;
 }
 
+.blurb {
+    /* text-align: end; */
+    padding: 5%;
+    margin: 5%;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Clicker Script', cursive;
+    font-weight: 300;
+}
+
+
 
 footer {
     position: fixed;
@@ -76,10 +72,11 @@ footer {
 }
 
 .samplePacks {
-    /* margin-top: 6rem; */
-    margin-bottom: 3%;
-    /* padding: 5%; */
-    /* box-shadow: 0 0 20px 5px #dda15e; */
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+
 }
 
 .card {
