@@ -20,7 +20,7 @@ h1:hover {
     transition: background-color 3s, border-radius 2s, opacity 1s, box-shadow 1s;
     opacity: 50%;
     /* background-color: #775713; */
-    color: rgb(100, 99, 99);
+    color: blanchedalmond;
 }
 
 .horse {
@@ -53,6 +53,25 @@ h1:hover {
     transition: opacity 1s;
     opacity: 50%;
     color: blanchedalmond;
+    border-bottom-color: white;
+}
+
+.dropdown-menu {
+    background: none;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 10%;
+    border: none;
+}
+
+.dropdown-item {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-item:hover {
+    transition: opacity 1s;
+    opacity: 50%;
+    color: blanchedalmond;
+    background: none;
     /* border-bottom-color: white; */
 }
 
@@ -68,17 +87,20 @@ section {
     font-weight: 50;
     font-size: 1.125rem;
     line-height: 2;
-    color: #dda15e;
-    font-family: 'Yuji Boku', serif;
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+    /* font-style: linear-gradient(to right, #535353, black); */
 }
 
 
 
 footer {
     position: fixed;
-    bottom: 2%;
-    font-family: 'Yuji Boku', serif;
-    color: #000000;
+    font-size: x-large;
+    font-weight: 500;
+    bottom: 0.1rem;
+    font-family: 'Splash', cursive;
+    color: black;
 }
 
 .samplePacks {
