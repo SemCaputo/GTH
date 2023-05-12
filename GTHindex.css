@@ -32,8 +32,6 @@ h1:hover {
 
 .containerJournal {
     margin: 5%;
-
-
 }
 
 .journalEntry {
@@ -149,7 +147,7 @@ footer {
     color: #000000;
 } */
 
-.samplePhoto {
+/* .samplePhoto {
     max-width: 300px;
     max-height: 325px;
     padding: 4%;
@@ -165,7 +163,7 @@ footer {
     padding: 4%;
     border-radius: 8%;
     box-shadow: 0 0 30px 5px #dda15e;
-}
+} */
 
 h2 {
     text-decoration: none;
